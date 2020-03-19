@@ -1,0 +1,34 @@
+{
+  "name": "tailwindcss-boilerplate",
+  "version": "1.0.0",
+  "description": "A tailwindcss boilerplate that makes development easy.",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss assets/css/tailwind.css -o public/build/main.css",
+    "watch": "postcss assets/css/tailwind.css -o public/build/main.css --watch",
+    "serve": "cross-env NODE_ENV=development concurrently \"postcss assets/css/tailwind.css -o public/build/main.css --watch\"  \"live-server ./src\"",
+    "dev": "cross-env NODE_ENV=development postcss assets/css/tailwind.css -o public/build/main.css",
+    "production": "cross-env NODE_ENV=production postcss assets/css/tailwind.css -o public/build/main.css",
+    "start": "npm run serve"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "tailwindUI"
+  ],
+  "author": "Emmanuel Raymond",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "concurrently": "^5.1.0",
+    "cross-env": "^7.0.2",
+    "cssnano": "^4.1.10",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^7.1.0",
+    "postcss-import": "^12.0.1"
+  }
+}

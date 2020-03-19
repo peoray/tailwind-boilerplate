@@ -1,0 +1,4 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import './styles.css'; /* Custom CSS. Ensure this comes before the tailwind utilities*/
+@import 'tailwindcss/utilities';
