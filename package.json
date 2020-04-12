@@ -4,11 +4,11 @@
   "description": "A tailwindcss boilerplate that makes development easy.",
   "main": "index.js",
   "scripts": {
-    "build": "postcss assets/css/tailwind.css -o public/build/main.css",
-    "watch": "postcss assets/css/tailwind.css -o public/build/main.css --watch",
-    "serve": "cross-env NODE_ENV=development concurrently \"postcss assets/css/tailwind.css -o public/build/main.css --watch\"  \"live-server ./src\"",
-    "dev": "cross-env NODE_ENV=development postcss assets/css/tailwind.css -o public/build/main.css",
-    "production": "cross-env NODE_ENV=production postcss assets/css/tailwind.css -o public/build/main.css",
+    "build": "postcss src/css/tailwind.css -o dist/assets/css/main.css",
+    "watch": "postcss src/css/tailwind.css -o dist/assets/css/main.css --watch",
+    "serve": "cross-env NODE_ENV=development concurrently \"postcss src/css/tailwind.css -o dist/assets/css/main.css --watch\"  \"live-server ./dist\"",
+    "dev": "cross-env NODE_ENV=development postcss src/css/tailwind.css -o dist/assets/css/main.css",
+    "prod": "cross-env NODE_ENV=production postcss src/css/tailwind.css -o dist/assets/css/main.css",
     "start": "npm run serve"
   },
   "keywords": [

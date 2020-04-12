@@ -37,12 +37,12 @@ To run
 
 ```
     # npm
-    npm run production
+    npm run prod
 
     # Yarn
-    yarn run production
+    yarn run prod
    ```
-This will create a minify css file in `public/build/main.css`.
+This will create a minify css file in `dist/css/main.css`.
 
 ## License
 
