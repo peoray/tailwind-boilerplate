@@ -19,15 +19,16 @@
   "author": "Emmanuel Raymond",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^9.8.0",
-    "tailwindcss": "^1.4.6"
+    "autoprefixer": "^10.1.0",
+    "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
-    "cross-env": "^7.0.2",
+    "concurrently": "^5.3.0",
+    "cross-env": "^7.0.3",
     "cssnano": "^4.1.10",
     "live-server": "^1.2.1",
-    "postcss-cli": "^7.1.1",
-    "postcss-import": "^12.0.1"
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.0"
   }
 }
