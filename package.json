@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-boilerplate",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A tailwindcss boilerplate that makes development easy.",
   "main": "index.js",
   "scripts": {
@@ -19,16 +19,18 @@
   "author": "Emmanuel Raymond",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^10.1.0",
-    "tailwindcss": "^2.0.2"
+    "autoprefixer": "^10.4.14",
+    "tailwindcss": "^3.2.7"
   },
   "devDependencies": {
-    "concurrently": "^6.0.2",
+    "concurrently": "^7.6.0",
     "cross-env": "^7.0.3",
-    "cssnano": "^5.0.2",
-    "live-server": "^1.2.1",
-    "postcss": "^8.2.1",
-    "postcss-cli": "^8.3.1",
-    "postcss-import": "^14.0.0"
+    "cssnano": "^5.1.15",
+    "live-server": "^1.2.2",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "prettier": "^2.8.4",
+    "prettier-plugin-tailwindcss": "^0.2.4"
   }
 }

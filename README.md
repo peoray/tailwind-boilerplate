@@ -23,15 +23,15 @@ To get started:
 3. Start up development server
     ```
     # npm
-    npm run serve
+    npm run start
 
     # yarn
-    yarn run serve
+    yarn run start
     ```
 
 #### To build for production
 
-The production code is optimized using [PurgeCSS](https://purgecss.com/) and [cssnano](https://cssnano.co/). 
+The production code is optimized using [cssnano](https://cssnano.co/). 
 
 To run
 
@@ -43,6 +43,10 @@ To run
     yarn run prod
    ```
 This will create a minify css file in `dist/css/main.css`.
+
+#### Tailwind Config
+
+You can find an example of a tailwind config file [here](https://gist.github.com/peoray/43d0695faf1f52b1a4c087ef99c74686)
 
 ## License
 
